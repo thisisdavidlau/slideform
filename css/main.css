@@ -1,0 +1,70 @@
+form {
+	background-color: #EAEAEA;
+	display: block;
+	position: absolute;
+	top: 100px;
+	right: 0;
+	/*float: right;*/
+	/*margin-top: 100px;*/
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	box-shadow: 0px 3px 5px #888888;
+	z-index: 100;
+}
+
+form p {
+	float: right;
+	margin-right: -20px;
+	padding: 2px 5px;
+}
+
+form p:hover {
+	cursor: pointer;
+	background-color: #CCCCCC;
+}
+
+form h1 {
+	font-size: 20px;
+}
+
+form input,
+form textarea {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form input {
+	width: 300px;
+	height: 40px;
+	border: #CCCCCC 1px solid;
+	padding-left: 10px;
+}
+
+form textarea {
+	width: 300px;
+	border: #CCCCCC 1px solid;
+	padding-left: 10px;
+
+}
+
+.hidden {
+	display: none;
+}
+
+.estimate {
+	/*width: 100px;*/
+	/*float: right;*/
+	position: absolute;
+	right: 0;
+	top: 100px;
+	padding: 10px 10px;
+	text-align: center;
+	box-shadow: 0px 3px 5px #888888;
+	background-color: #EAEAEA;
+}
+
+.estimate:hover {
+	cursor: pointer;
+	background-color: #CCCCCC;
+}
